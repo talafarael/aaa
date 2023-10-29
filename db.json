@@ -1,4 +1,12 @@
 {
+    "users":[{
+        "id": "2",
+        "name": "Pasha",
+        "balanse": "100000000"
+    }
+      
+    ]
+}{
     "users":[{"id":1,
         "name":"NAME",
         "surname":"surname",
