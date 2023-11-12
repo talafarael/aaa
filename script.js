@@ -1,0 +1,1 @@
+fetch('https://my-json-server.typicode.com/talafarael/aaa/db').then(data=>data.json().then(res=>console.log(res)))
