@@ -7,12 +7,14 @@ function bild(res){console.log(res.length)
 
       html +=`
       
-      <div class="card" style="width: 18rem;">
-      <img src="${res[i].photo_url}" class="card-img-top" alt="...">
+      <div class="card" style="width: 18rem;
+      height:450px;
+      ">
+      <img src="${res[i].photo_url}" class="img card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">${res[i].name}</h5>
         <p class="card-text">${res[i].description} </p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn b btn-primary">Go somewhere</a>
       </div>
     </div>
   
