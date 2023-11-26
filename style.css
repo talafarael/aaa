@@ -1,0 +1,9 @@
+.grid{
+display: flex;
+justify-content: center;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+}
